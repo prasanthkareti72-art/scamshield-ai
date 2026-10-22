@@ -9,11 +9,14 @@ from flask import Flask, jsonify
 from app.config import config_by_name
 from app.extensions import db, cors
 
+import tempfile
+
 def create_app(config_name=None):
     if config_name is None:
         config_name = os.getenv("FLASK_ENV", "development")
 
-    app = Flask(__name__, instance_relative_config=True)
+    instance_path = os.path.abspath(tempfile.gettempdir()) if os.getenv("VERCEL") else None
+    app = Flask(__name__, instance_relative_config=True, instance_path=instance_path)
     app.config.from_object(config_by_name.get(config_name, config_by_name["default"]))
 
     # Ensure instance folder exists

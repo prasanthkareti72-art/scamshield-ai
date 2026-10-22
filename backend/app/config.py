@@ -41,10 +41,15 @@ class TestingConfig(Config):
     SQLALCHEMY_DATABASE_URI = "sqlite:///:memory:"
     VERIFY_TWILIO_SIGNATURE = False
 
+import tempfile
+
 class ProductionConfig(Config):
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "sqlite:///scamshield.sqlite")
-    VERIFY_TWILIO_SIGNATURE = True
+    SQLALCHEMY_DATABASE_URI = os.getenv(
+        "DATABASE_URL",
+        f"sqlite:///{os.path.join(tempfile.gettempdir(), 'scamshield.sqlite').replace(os.sep, '/')}" if os.getenv("VERCEL") else "sqlite:///scamshield.sqlite"
+    )
+    VERIFY_TWILIO_SIGNATURE = os.getenv("VERIFY_TWILIO_SIGNATURE", "False").lower() in ("true", "1", "t")
 
 config_by_name = {
     "development": DevelopmentConfig,
