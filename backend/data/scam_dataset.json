@@ -1,0 +1,182 @@
+[
+  {
+    "text": "Dear Customer, Your SBI NetBanking account will be blocked today due to pending KYC update. Click here immediately to update PAN: http://sbi-kyc-verify-portal.top",
+    "label": 1,
+    "category": "KYC_BANK_FRAUD"
+  },
+  {
+    "text": "Hi Rahul, are we still meeting at the library at 4 PM for the project discussion?",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Congratulations! You have won ₹50,000 in Kaun Banega Crorepati WhatsApp Lucky Draw! Call manager Rana Pratap at +919876543210 to claim your cash award.",
+    "label": 1,
+    "category": "LOTTERY_PRIZE_SCAM"
+  },
+  {
+    "text": "Your Amazon delivery order #402-8821903 has been shipped and is scheduled to arrive by Friday. Track at amazon.in",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Urgent: Dear user, your electricity power will be disconnected at 9:30 PM tonight from electricity office because your previous month bill was not updated. Please contact our electricity officer immediately at 9811223344",
+    "label": 1,
+    "category": "KYC_BANK_FRAUD"
+  },
+  {
+    "text": "Mom, I reached the hotel safely. The weather here is nice and sunny. Will call you tonight after dinner.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "URGENT OTP Verification: 849201 is your authorization code for ₹24,999 debited to Paytm. If this was not you, share this OTP immediately with support officer at 8899001122 to reverse the charge.",
+    "label": 1,
+    "category": "OTP_CREDENTIAL_PHISHING"
+  },
+  {
+    "text": "Here is the summary notes from today's sprint planning meeting. Please review the action items by tomorrow morning.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "PART-TIME WORK FROM HOME: Earn ₹3,500 to ₹8,000 daily just by subscribing to YouTube channels and rating Google Maps hotels. No experience required. Daily instant payouts. Join our Telegram: t.me/fast_earning_vip",
+    "label": 1,
+    "category": "FAKE_JOB_TASK_SCAM"
+  },
+  {
+    "text": "Dr. Sharma's clinic: Your appointment for annual dental checkup is confirmed for tomorrow, Tuesday at 11:30 AM.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Guaranteed 300% profit in 24 hours! Join our automated crypto VIP trading group. Invest ₹5,000 get ₹20,000 back. 100% risk free guaranteed returns. Limited spots available!",
+    "label": 1,
+    "category": "INVESTMENT_CRYPTO_SCAM"
+  },
+  {
+    "text": "Can you please share the recipe for the spinach pasta you made last weekend? The kids loved it!",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "India Post Alert: Your package IND981240 cannot be delivered due to incomplete street address. Please update your address and pay ₹25 redelivery fee within 12 hours: http://indiapost-parcel-reschedule.xyz",
+    "label": 1,
+    "category": "DELIVERY_PARCEL_IMPERSONATION"
+  },
+  {
+    "text": "Flight ticket confirmation: PNR Z8Y2M1. Departure Delhi DEL at 08:45 AM, Arrival Mumbai BOM at 11:00 AM. Terminal 3.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Forward this message to 15 friends right now and your WhatsApp icon will turn gold with free unlimited calling! If you ignore, your account will be deleted tonight!",
+    "label": 1,
+    "category": "VIRAL_FORWARD_CHAIN"
+  },
+  {
+    "text": "The monthly grocery bill is ₹4,230. I have transferred my half via UPI. Let me know when you receive it.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Dear user, HDFC Bank alert: A transaction of ₹45,000 is initiated on your debit card. Enter your netbanking password and UPI PIN on http://hdfc-netbanking-verify.club to cancel.",
+    "label": 1,
+    "category": "OTP_CREDENTIAL_PHISHING"
+  },
+  {
+    "text": "Please bring two photocopies of your ID and passport-sized photographs when coming for the driving license test on Thursday.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Exclusive offer: Work 2 hours daily and earn ₹60,000 monthly from home. Freelance data entry and video liking job. Message on WhatsApp +917012345678 to start immediately.",
+    "label": 1,
+    "category": "FAKE_JOB_TASK_SCAM"
+  },
+  {
+    "text": "The college campus will remain closed on Friday on account of the state holiday. Online lectures will proceed as scheduled.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "You have been selected as the winner of the 2026 International Apple iPhone 16 Pro Mega Giveaway! Click here to claim your gadget before timer expires: http://claim-iphone-reward.top",
+    "label": 1,
+    "category": "LOTTERY_PRIZE_SCAM"
+  },
+  {
+    "text": "Thanks for attending today's webinar. The presentation slides and recording link have been emailed to your registered address.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Double your Bitcoin balance today! Send 0.05 BTC to our verified escrow address and our AI trading bot will deposit 0.15 BTC back to your wallet instantly.",
+    "label": 1,
+    "category": "INVESTMENT_CRYPTO_SCAM"
+  },
+  {
+    "text": "Happy Birthday uncle! Wishing you great health, happiness, and peace in the coming year. See you next week!",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "FedEx Delivery Notice: Parcel #FX-88912 is on hold at customs office due to unpaid clearance tax of ₹499. Pay immediately to release: http://fedex-customs-clearance.biz",
+    "label": 1,
+    "category": "DELIVERY_PARCEL_IMPERSONATION"
+  },
+  {
+    "text": "Hey Priya, did you check the draft proposal that Rohan shared yesterday? Let's discuss our feedback on the team standup call.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Your ICICI Bank account is suspended for non-compliance of Aadhaar biometric. Download this quick support APK to restore access: http://192.168.1.100/icici-support.apk",
+    "label": 1,
+    "category": "KYC_BANK_FRAUD"
+  },
+  {
+    "text": "Reminder: Your electricity bill payment of ₹1,850 for consumer #55129 is due on 28th October. Pay via official portal or authorized payment apps.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "To claim your pending cashback of ₹3,999 from Google Pay, open the link, click Receive, and enter your UPI PIN: http://gpay-cashback-reward.click",
+    "label": 1,
+    "category": "OTP_CREDENTIAL_PHISHING"
+  },
+  {
+    "text": "Good morning team, the code deployment to staging completed without errors. Please proceed with user acceptance testing.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Attention Axis Bank user: ₹75,000 will be debited unless you update PAN card link right now: http://axis-verify-login.xyz",
+    "label": 1,
+    "category": "KYC_BANK_FRAUD"
+  },
+  {
+    "text": "Hey, the plumber visited and fixed the leak in the kitchen sink. The total bill came to ₹350.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Hi grandma, this is urgent! I am stuck at the police station after a minor road accident and lost my phone. Please send ₹15,000 immediately to this UPI id so I can settle the fine!",
+    "label": 1,
+    "category": "EMERGENCY_IMPERSONATION"
+  },
+  {
+    "text": "Please remember to submit your quarterly self-appraisal form on the HR portal before the end of this week.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  },
+  {
+    "text": "Congratulations! Your mobile number 98XXXX1234 won ₹1,00,000 in Maruti Suzuki Diwali Mega Lucky Draw! Claim by sending processing fee ₹1,500 to our agent.",
+    "label": 1,
+    "category": "LOTTERY_PRIZE_SCAM"
+  },
+  {
+    "text": "We are planning a picnic to the botanical garden this Sunday. Let us know by Friday if your family can make it.",
+    "label": 0,
+    "category": "SAFE_CONVERSATIONAL"
+  }
+]

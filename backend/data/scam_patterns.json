@@ -1,0 +1,164 @@
+{
+  "categories": {
+    "KYC_BANK_FRAUD": {
+      "name": "Bank & KYC Suspension Scam",
+      "severity": "HIGH",
+      "base_risk": 85,
+      "description": "Fraudulent notice threatening account freeze or suspension unless KYC is updated via an unofficial link or APK.",
+      "keywords": [
+        "kyc", "pan card", "account blocked", "account suspended", "debit card blocked",
+        "update kyc", "aadhaar link", "netbanking suspended", "dormant account",
+        "electricity disconnected tonight", "bill overdue power cut", "disconnection order"
+      ],
+      "regex_patterns": [
+        "(?i)(dear\\s+customer|urgent).*?(account|card|sim|pan).*?(blocked|suspended|deactivated|frozen)",
+        "(?i)update\\s+(your\\s+)?(kyc|pan|aadhaar).*?(within\\s+\\d+\\s*(hours|hrs|mins)|immediately|click)",
+        "(?i)electricity\\s+(power\\s+)?will\\s+be\\s+disconnected\\s+(tonight|at\\s+\\d+|today)"
+      ],
+      "advice": [
+        "Never update KYC through SMS/WhatsApp links. Official banks never ask for credentials via chat.",
+        "Log in directly to your bank's official app or netbanking portal.",
+        "Report the SMS/number to 1930 (Cyber Crime Helpline) or your bank's fraud reporting line."
+      ]
+    },
+    "OTP_CREDENTIAL_PHISHING": {
+      "name": "OTP & Credential Phishing",
+      "severity": "CRITICAL",
+      "base_risk": 95,
+      "description": "Attempt to harvest One-Time Passwords (OTP), 2FA codes, PINs, or banking passwords.",
+      "keywords": [
+        "otp", "one time password", "verification code", "share otp", "enter pin",
+        "confirm password", "security pin", "upi pin to receive", "refund verification"
+      ],
+      "regex_patterns": [
+        "(?i)(share|send|provide|tell).*?(otp|one[- ]time password|verification code|pin)",
+        "(?i)enter\\s+(upi\\s+)?pin\\s+to\\s+(receive|claim|credit|accept)\\s+(money|refund|payment)",
+        "(?i)verify\\s+(your\\s+)?credentials.*?(link|form|url)"
+      ],
+      "advice": [
+        "NEVER share OTPs or verification codes with anyone, not even bank employees.",
+        "Remember: You NEVER need to enter a UPI PIN to receive money.",
+        "If you entered your PIN or OTP on a suspicious page, freeze your account immediately."
+      ]
+    },
+    "LOTTERY_PRIZE_SCAM": {
+      "name": "Lottery & Prize Scam",
+      "severity": "HIGH",
+      "base_risk": 88,
+      "description": "Unsolicited claims of winning massive cash prizes, luxury cars, iPhones, or lucky draws requiring fees or link clicks.",
+      "keywords": [
+        "won", "winner", "lottery", "cash prize", "congratulations", "lucky draw",
+        "kbc", "kaun banega crorepati", "claim prize", "jackpot", "car winner",
+        "amazon anniversary gift", "flipkart lucky spin"
+      ],
+      "regex_patterns": [
+        "(?i)congratulations!*\\s+(you('ve)?|user)\\s+(have\\s+)?won\\s+[\\$£€₹]?\\s*[\\d,]+",
+        "(?i)(claim|redeem)\\s+(your\\s+)?(prize|reward|gift|iphone|lottery).*?(click|link|call)",
+        "(?i)selected\\s+(as\\s+the\\s+)?lucky\\s+winner"
+      ],
+      "advice": [
+        "Legitimate lotteries do not ask for advance processing fees or WhatsApp forwards.",
+        "If you did not enter a contest, you cannot have won it.",
+        "Do not click promotional links or call unverified phone numbers."
+      ]
+    },
+    "FAKE_JOB_TASK_SCAM": {
+      "name": "Fake Job & Work-From-Home Task Scam",
+      "severity": "HIGH",
+      "base_risk": 82,
+      "description": "Offers of easy part-time work, liking YouTube videos, Google Maps reviews, or Telegram tasks promising exorbitant daily income.",
+      "keywords": [
+        "part time job", "work from home", "earn daily", "like youtube videos",
+        "daily income", "telegram task", "part-time", "rating hotels", "review tasks",
+        "no experience needed", "earn 3000-8000 daily", "freelance task"
+      ],
+      "regex_patterns": [
+        "(?i)(earn|salary).*?[\\$£€₹]?\\s*[\\d,]+\\s*(per|a|\\/)?\\s*(day|daily|hour)",
+        "(?i)(part[- ]time|work from home).*?(no experience|flexible hours|daily payout)",
+        "(?i)(like|subscribe|review).*?(videos|maps|hotels).*?(earn|get paid)"
+      ],
+      "advice": [
+        "Genuine employers never hire without interviews or ask candidates to pay prepaid deposits.",
+        "Prepaid task schemes ('pay ₹1,000 to unlock ₹5,000 commission') are 100% Ponzi scams.",
+        "Refuse to join unofficial Telegram task groups."
+      ]
+    },
+    "INVESTMENT_CRYPTO_SCAM": {
+      "name": "Guaranteed Investment & Crypto Scam",
+      "severity": "HIGH",
+      "base_risk": 90,
+      "description": "Promises of unrealistic guaranteed returns, crypto doubling schemes, insider stock tips, or forex trading bots.",
+      "keywords": [
+        "guaranteed return", "double your money", "crypto investment", "forex trading",
+        "zero risk", "profit guaranteed", "trading bot", "insider tips", "vip signal group",
+        "multiply investment", "instant withdrawal"
+      ],
+      "regex_patterns": [
+        "(?i)(guaranteed|100%|risk[- ]free)\\s+(return|profit|income|yield)",
+        "(?i)(double|triple|multiply)\\s+(your\\s+)?(money|investment|crypto|bitcoin|funds)",
+        "(?i)invest\\s+[\\$£€₹]?\\s*\\d+.*?get\\s+[\\$£€₹]?\\s*\\d+"
+      ],
+      "advice": [
+        "All legitimate investments carry risk. Any promise of 'guaranteed high returns' is fraudulent.",
+        "Verify broker registration with financial regulators (e.g., SEBI, SEC, FCA).",
+        "Never transfer cryptocurrency or funds to unknown individuals or unverified apps."
+      ]
+    },
+    "DELIVERY_PARCEL_IMPERSONATION": {
+      "name": "Courier & Delivery Impersonation",
+      "severity": "MEDIUM",
+      "base_risk": 75,
+      "description": "Fake messages from postal or courier services claiming package address is incomplete or unpaid customs duties are owed.",
+      "keywords": [
+        "package delivered", "customs fee", "unpaid duty", "address incomplete",
+        "reschedule delivery", "india post", "fedex parcel", "dhl tracking",
+        "failed delivery", "click to confirm address"
+      ],
+      "regex_patterns": [
+        "(?i)(package|parcel|shipment).*?(cannot\\s+be\\s+delivered|held|pending|incomplete\\s+address)",
+        "(?i)(reschedule|update\\s+address|pay\\s+fee).*?(click|link|http)"
+      ],
+      "advice": [
+        "Do not click delivery links sent via SMS/WhatsApp. Check tracking on the official courier portal.",
+        "Couriers do not ask for card details via random shortlinks to update addresses.",
+        "Inspect sender number; automated notifications typically come from branded SMS sender IDs."
+      ]
+    },
+    "VIRAL_FORWARD_CHAIN": {
+      "name": "Viral Forwarding Chain / Social Engineering",
+      "severity": "MEDIUM",
+      "base_risk": 70,
+      "description": "Emotional or fear-mongering messages urging the recipient to forward to 10-20 contacts to avoid penalties or claim perks.",
+      "keywords": [
+        "forward to 10 friends", "forward to all contacts", "whatsapp will become paid",
+        "whatsapp gold", "send this to 20 people", "don't break the chain",
+        "share with 5 groups"
+      ],
+      "regex_patterns": [
+        "(?i)forward\\s+(this\\s+message\\s+)?to\\s+(\\d+|all)\\s*(people|friends|contacts|groups)",
+        "(?i)(share|send)\\s+to\\s+\\d+\\s+groups\\s+to\\s+(activate|claim|receive|win)",
+        "(?i)whatsapp\\s+(will\\s+be\\s+charged|becomes\\s+paid|gold)"
+      ],
+      "advice": [
+        "Forwarding chains are almost universally fake or intended to distribute spam.",
+        "WhatsApp remains free; official updates are communicated through the app store, not forwarded chains.",
+        "Stop the viral spread: Do not forward unverified claims."
+      ]
+    }
+  },
+  "url_rules": {
+    "suspicious_tlds": [
+      ".top", ".xyz", ".buzz", ".cc", ".pw", ".tk", ".ml", ".ga", ".cf", ".gq",
+      ".work", ".click", ".link", ".icu", ".monster", ".site", ".live", ".fit"
+    ],
+    "url_shorteners": [
+      "bit.ly", "tinyurl.com", "is.gd", "t.co", "cutt.ly", "rb.gy", "rebrand.ly",
+      "ow.ly", "buff.ly", "shorturl.at"
+    ],
+    "brand_spoof_targets": [
+      "sbi", "hdfc", "icici", "axis", "paytm", "phonepe", "gpay", "google",
+      "apple", "amazon", "flipkart", "paypal", "netflix", "microsoft", "chase",
+      "wellsfargo", "bankofamerica", "telegram", "whatsapp", "facebook", "instagram"
+    ]
+  }
+}

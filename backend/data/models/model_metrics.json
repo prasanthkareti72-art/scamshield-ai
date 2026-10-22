@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-22T06:33:58.440649+00:00",
+  "framework": "scikit-learn",
+  "vectorizer": "TF-IDF (1, 2 n-grams with sublinear term frequency)",
+  "models": {
+    "fake_news": {
+      "model_name": "Fake News Classifier (TF-IDF + Logistic Regression)",
+      "train_samples": 30,
+      "test_samples": 10,
+      "accuracy": 0.8,
+      "precision": 0.7143,
+      "recall": 1.0,
+      "f1_score": 0.8333,
+      "confusion_matrix": {
+        "tn": 3,
+        "fp": 2,
+        "fn": 0,
+        "tp": 5
+      },
+      "classes": [
+        "Genuine News (0)",
+        "Misinformation / Fake News (1)"
+      ]
+    },
+    "scam_phishing": {
+      "model_name": "Scam & Phishing Classifier (TF-IDF + Logistic Regression)",
+      "train_samples": 27,
+      "test_samples": 9,
+      "accuracy": 0.8889,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1_score": 0.8889,
+      "confusion_matrix": {
+        "tn": 4,
+        "fp": 1,
+        "fn": 0,
+        "tp": 4
+      },
+      "classes": [
+        "Safe Conversational (0)",
+        "Scam / Phishing (1)"
+      ]
+    }
+  }
+}

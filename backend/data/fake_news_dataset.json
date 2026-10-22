@@ -1,0 +1,242 @@
+[
+  {
+    "text": "The Reserve Bank of India announced that repo rate remains unchanged at 6.5 percent following the bi-monthly monetary policy committee meeting.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Financial Bureau"
+  },
+  {
+    "text": "BREAKING: Government has ordered all citizens to immediately drink boiled garlic and lemon water every morning to become 100% immune to all respiratory viruses! Forward to everyone!",
+    "label": 1,
+    "category": "health_misinformation",
+    "source": "Viral Forward"
+  },
+  {
+    "text": "ISRO successfully launched the meteorological satellite INSAT-3DS aboard GSLV-F14 from the Satish Dhawan Space Centre in Sriharikota.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Science & Tech Correspondent"
+  },
+  {
+    "text": "NASA confirms Earth will plunge into 6 full days of total darkness starting next Monday due to an unprecedented solar storm! Prepare candles now!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "Social Media Chain"
+  },
+  {
+    "text": "The Ministry of Finance released the quarterly GDP growth figures, showing a 7.8% expansion driven by manufacturing and construction sectors.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Economic Times"
+  },
+  {
+    "text": "URGENT NOTICE from Prime Minister: Every ration card holder will receive ₹25,000 cash subsidy directly into their bank account tomorrow. Click link to register your Aadhaar now!",
+    "label": 1,
+    "category": "government_impersonation",
+    "source": "WhatsApp Forward"
+  },
+  {
+    "text": "World Health Organization published updated guidelines on cardiovascular health, recommending at least 150 minutes of moderate aerobic exercise weekly.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Health Journal"
+  },
+  {
+    "text": "Drinking cold water after meals causes immediate cancer because oil solidifies into toxic sludge in your intestines! Forward to save a life!",
+    "label": 1,
+    "category": "health_misinformation",
+    "source": "Chain Message"
+  },
+  {
+    "text": "The Supreme Court constitution bench upheld the validity of the regulatory framework governing digital payment aggregators.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Legal Reporter"
+  },
+  {
+    "text": "ALERT: UNESCO has just declared the Indian national anthem as the best anthem in the world for the 5th consecutive time! Proud moment share to 10 groups!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "Forwarded Many Times"
+  },
+  {
+    "text": "The Indian Meteorological Department issued an orange alert for coastal regions predicting heavy rainfall and wind speeds up to 60 km/h over the next 48 hours.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "IMD Weather Bulletin"
+  },
+  {
+    "text": "SHOCKING TRUTH: New 5G mobile towers are secretly emitting secret frequencies causing birds to drop dead and humans to suffer memory loss. Share before it gets deleted!",
+    "label": 1,
+    "category": "conspiracy_theory",
+    "source": "Viral Blog"
+  },
+  {
+    "text": "The Department of Telecommunications warned mobile users against entertaining calls from unknown international numbers asking for personal details.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "PIB Press Release"
+  },
+  {
+    "text": "Emergency warning: Tonight between 12:30 AM and 3:30 AM, our planet will be hit by cosmic rays. Switch off your mobile phones and keep them away from your body!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "WhatsApp Forward"
+  },
+  {
+    "text": "The Union Cabinet approved an expansion of the production-linked incentive scheme for semiconductor manufacturing with an outlay of ₹10,000 crore.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "National Daily"
+  },
+  {
+    "text": "Secret cure discovered: Big pharma is hiding this! Eating raw ginger and cinnamon can cure stage 4 diabetes in just 7 days without insulin! Forward to all diabetic friends!",
+    "label": 1,
+    "category": "health_misinformation",
+    "source": "Viral Health Post"
+  },
+  {
+    "text": "Election Commission announced the schedule for legislative assembly elections across five states, with counting scheduled for the following month.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Election Desk"
+  },
+  {
+    "text": "Government announcement: WhatsApp will begin charging $1 per message from midnight tonight unless you forward this message to 20 contacts immediately to prove you are an active user!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "Forward Chain"
+  },
+  {
+    "text": "Railway Ministry introduced 10 new Vande Bharat Express routes connecting major tier-2 cities with state capitals.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Transport Bureau"
+  },
+  {
+    "text": "Government of India is distributing free laptops and solar panels to all students who fill this online survey form within 24 hours. Limited slots left!",
+    "label": 1,
+    "category": "phishing_hoax",
+    "source": "Scam Forward"
+  },
+  {
+    "text": "Astronomers observed a rare alignment of Jupiter, Mars, and Saturn visible to the naked eye just before sunrise.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Space Chronicle"
+  },
+  {
+    "text": "BREAKING: Reserve Bank has decided to invalidate all 500 rupee notes from next Monday. Exchange your currency notes immediately at nearest petrol pump!",
+    "label": 1,
+    "category": "financial_hoax",
+    "source": "Panic Message"
+  },
+  {
+    "text": "The national statistics office reported retail inflation eased to 4.85% in March, staying within the central bank's tolerance band.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Economic Gazette"
+  },
+  {
+    "text": "New study finds that applying toothpaste on snake bites immediately neutralizes the venom and prevents heart failure! Must share with farmers!",
+    "label": 1,
+    "category": "dangerous_remedy",
+    "source": "WhatsApp Forward"
+  },
+  {
+    "text": "Central Board of Secondary Education announced the commencement of class 10 and 12 annual board examinations across affiliated schools.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Education Bureau"
+  },
+  {
+    "text": "UN has declared tomorrow as World Kindness Holiday and announced that all international phone calls will be free for 24 hours!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "Forward Chain"
+  },
+  {
+    "text": "Civil Aviation Ministry issued revised guidelines regarding baggage screening protocols to reduce passenger wait times at airport terminals.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Aviation Herald"
+  },
+  {
+    "text": "Secret leak: Drinking boiled neem water every 2 hours makes your immune cells bulletproof against all known cancers! Doctors are shocked!",
+    "label": 1,
+    "category": "health_misinformation",
+    "source": "Viral Forward"
+  },
+  {
+    "text": "Automotive manufacturers reported an 11 percent year-on-year increase in domestic passenger vehicle dispatches for the quarter.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Auto Sector Report"
+  },
+  {
+    "text": "ALERT: WhatsApp has turned pink! Download WhatsApp Pink edition to get free video calling and custom themes now via this link!",
+    "label": 1,
+    "category": "malware_hoax",
+    "source": "Malware Forward"
+  },
+  {
+    "text": "The United Nations climate conference concluded with a draft declaration urging accelerated adoption of renewable energy technologies and grid modernization.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Global Climate Wire"
+  },
+  {
+    "text": "SHOCKING: Eating chicken within 4 hours of eating watermelon produces deadly chemical cyanide in human stomach! Two people died in hospital today! Forward immediately!",
+    "label": 1,
+    "category": "health_misinformation",
+    "source": "Panic Chain"
+  },
+  {
+    "text": "State government inaugurated a 250 MW floating solar power facility on the reservoir, aiming to supply clean electricity to over 100,000 households.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Energy Dispatch"
+  },
+  {
+    "text": "WARNING: Terrorists are spraying poisonous perfume bottles on car windshields at traffic signals. If anyone offers you perfume, run immediately!",
+    "label": 1,
+    "category": "fear_hoax",
+    "source": "WhatsApp Forward"
+  },
+  {
+    "text": "The Ministry of Health announced the nationwide rollout of new digital health records linked through the Ayushman Bharat Digital Mission.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Health Ministry"
+  },
+  {
+    "text": "Do not charge your phone overnight or it will emit radiation that attracts venomous snakes into your bedroom! Confirmed by scientists!",
+    "label": 1,
+    "category": "viral_hoax",
+    "source": "Viral Chain"
+  },
+  {
+    "text": "The Securities and Exchange Board of India mandated enhanced disclosures for foreign portfolio investors exceeding certain concentration thresholds.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Financial Chronicle"
+  },
+  {
+    "text": "Forward this picture of divine temple to 15 people in the next 10 minutes and you will receive unexpected wealth tomorrow morning! Don't ignore!",
+    "label": 1,
+    "category": "superstition_chain",
+    "source": "Viral Forward"
+  },
+  {
+    "text": "The National Highways Authority completed the trial run of GPS-based electronic toll collection along selected expressway stretches.",
+    "label": 0,
+    "category": "genuine_news",
+    "source": "Infrastructure News"
+  },
+  {
+    "text": "Government circular: All mobile sim cards without biometric linking will be permanently deactivated at midnight today! Call 9811009988 now!",
+    "label": 1,
+    "category": "panic_hoax",
+    "source": "WhatsApp Forward"
+  }
+]
